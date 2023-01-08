@@ -1,9 +1,10 @@
+import { Player } from "./components/Player";
 import { Layout } from "./layout";
 
 export function App() {
   return (
     <Layout>
-      <h1>hello world</h1>
+      <Player />
     </Layout>
   );
 }

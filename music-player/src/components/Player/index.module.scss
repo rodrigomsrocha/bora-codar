@@ -1,0 +1,48 @@
+.player {
+  background: #2a2141;
+  padding: 2.375rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 266px;
+  gap: 28px;
+  header {
+    img {
+      max-width: 190px;
+      border-radius: 6px;
+    }
+  }
+  .info {
+    h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+    span {
+      font-size: 1.125rem;
+      color: #a5a2af;
+    }
+  }
+  .controls {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    button {
+      background: transparent;
+      border: 0;
+      cursor: pointer;
+      transition: all 0.2s;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+  .progress {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    span {
+      margin-top: 10px;
+      color: #9693a3;
+    }
+  }
+}
