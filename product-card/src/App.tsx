@@ -1,5 +1,13 @@
+import { Preview } from "./components/Preview";
+
 function App() {
-  return <h1 className="text-3xl font-bold underline">product card</h1>;
+  return (
+    <div className="min-h-screen w-full bg-bg-color flex items-center justify-center">
+      <div className="max-w-[688px] mx-auto px-4 flex items-center">
+        <Preview />
+      </div>
+    </div>
+  );
 }
 
 export default App;
