@@ -7,6 +7,10 @@ module.exports = {
       primary: "#271A45",
       secondary: "#61557f",
     },
+    fontFamily: {
+      sans: ["Lato", "sans-serif"],
+      serif: ["Crimson Pro", "serif"],
+    },
     extend: {},
   },
   plugins: [],
